@@ -27,9 +27,9 @@ Negative-numbered messages are common to most subsystems. If you receive a negat
 
 &lt;/blockquote&gt; **1001**
 
-1001 - Backup process created in CPU cpu-number
+## 1001 - Backup process created in CPU cpu-number
 
-## Message Explanation
+### Message Explanation
 
 cpu-number : the number of the CPU on the local system in which the backup domain coordinator process was started.
 
@@ -45,11 +45,11 @@ The backup domain coordinator process runs in the indicated CPU.
 
 Informational message only; no corrective action is needed.
 
-**1002**
+## **1002**
 
 1002 - Backup process creation in CPU cpu-number failed, error errnum, detail error-detail
 
-## Message Explanation
+### Message Explanation
 
 cpu-number : the number of the CPU on the local system in which the backup domain coordinator process could not be started.
 
@@ -71,11 +71,11 @@ Correct the error condition. If the problem persists, contact your service provi
 
 For more detailed information, including recovery actions, refer to the _Guardian Procedure Errors and Messages Manual_.
 
-**1003**
+## **1003**
 
 1003 - Backup process in CPU cpu-number terminated abnormally, comp-code error-code, \[ stopper stopper-id, \] \[ term-ssid term-ssid, \] term-info term-info, \[ term-text term-text\]
 
-## Message Explanation
+### Message Explanation
 
 cpu-number : the number of the CPU on the local system in which the backup domain coordinator process was terminated.
 
